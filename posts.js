@@ -6,20 +6,20 @@ const defaultData = {
   "8xf0y6ziyjabvozdd253nd": {
     id: '8xf0y6ziyjabvozdd253nd',
     timestamp: 1467166872634,
-    title: 'Udacity is the best place to learn React',
-    body: 'Everyone says so after all.',
-    author: 'thingtwo',
-    category: 'react',
+    title: 'Saving Humanity',
+    body: 'How can we get to mars soon?',
+    author: 'Elon Musk',
+    category: 'Research and Development',
     voteScore: 6,
-    deleted: false 
+    deleted: false
   },
   "6ni6ok3ym7mf1p33lnez": {
     id: '6ni6ok3ym7mf1p33lnez',
     timestamp: 1468479767190,
-    title: 'Learn Redux in 10 minutes!',
-    body: 'Just kidding. It takes more than 10 minutes to learn technology.',
-    author: 'thingone',
-    category: 'redux',
+    title: 'Company purpose',
+    body: 'Anybody have ideas for a moto that makes as seem good?',
+    author: 'Larry Page',
+    category: 'Culture',
     voteScore: -5,
     deleted: false
   }
@@ -46,7 +46,7 @@ function get (token, id) {
   return new Promise((res) => {
     const posts = getData(token)
     res(
-      posts[id].deleted 
+      posts[id].deleted
         ? {}
         : posts[id]
     )
@@ -65,7 +65,7 @@ function getAll (token) {
 function add (token, post) {
   return new Promise((res) => {
     let posts = getData(token)
-    
+
     posts[post.id] = {
       id: post.id,
       timestamp: post.timestamp,
@@ -76,7 +76,7 @@ function add (token, post) {
       voteScore: 1,
       deleted: false
     }
-     
+
     res(posts[post.id])
   })
 }

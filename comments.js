@@ -7,19 +7,29 @@ const defaultData = {
     id: '894tuq4ut84ut8v4t8wun89g',
     parentId: "8xf0y6ziyjabvozdd253nd",
     timestamp: 1468166872634,
-    body: 'Hi there! I am a COMMENT.',
-    author: 'thingtwo',
+    body: 'I might be able to build a rocket...',
+    author: 'Tom Mueller',
     voteScore: 6,
     deleted: false,
-    parentDeleted: false 
+    parentDeleted: false
+  },
+  "894tuq4ut84u46655htht3un89g": {
+    id: '894tuq4ut84u46655htht3un89g',
+    parentId: "8xf0y6ziyjabvozdd253nd",
+    timestamp: 1468166872634,
+    body: 'I can test it, Tom!',
+    author: 'Tim Buzza',
+    voteScore: 4,
+    deleted: false,
+    parentDeleted: false
   },
   "8tu4bsun805n8un48ve89": {
     id: '8tu4bsun805n8un48ve89',
-    parentId: "8xf0y6ziyjabvozdd253nd",
+    parentId: "6ni6ok3ym7mf1p33lnez",
     timestamp: 1469479767190,
-    body: 'Comments. Are. Cool.',
-    author: 'thingone',
-    voteScore: -5,
+    body: 'What about "Don\'t be evil?"',
+    author: 'Sergey Brin',
+    voteScore: 150,
     deleted: false,
     parentDeleted: false
   }
@@ -48,7 +58,7 @@ function get (token, id) {
     res(
       comments[id].deleted || comments[id].parentDeleted
         ? {}
-        : comments[id]      
+        : comments[id]
       )
   })
 }
@@ -67,7 +77,7 @@ function add (token, comment) {
       deleted: false,
       parentDeleted: false
     }
-     
+
     res(comments[comment.id])
   })
 }

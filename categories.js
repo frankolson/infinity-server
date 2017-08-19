@@ -6,16 +6,16 @@ let db = {}
 const defaultData = {
   categories: [
       {
-        name: 'react',
-        path: 'react'
+        name: 'Business Administration',
+        path: 'Business Administration'
       },
       {
-        name: 'redux',
-        path: 'redux'
+        name: 'Research and Development',
+        path: 'Research and Development'
       },
       {
-        name: 'udacity',
-        path: 'udacity'
+        name: 'Culture',
+        path: 'Culture'
       }
   ]
 }
@@ -32,7 +32,7 @@ function getData (token) {
 
 function getAll (token) {
   return new Promise((res) => {
-    res(getData(token))    
+    res(getData(token))
   })
 }
 
