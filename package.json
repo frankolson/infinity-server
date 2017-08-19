@@ -1,15 +1,14 @@
 {
-  "name": "reddit-clone-server",
+  "name": "infinity-server",
   "version": "0.0.1",
-  "description": "A server for the Udacity Reddit Clone project for ReactND",
+  "description": "A server for the Infinity Team's project for the Millennial Disrupt Hackathon",
   "main": "index.js",
   "keywords": [
-    "udacity",
     "redux",
-    "readable",
+    "infintiy",
     "react"
   ],
-  "author": "David Harris",
+  "author": "Will Olson",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
@@ -17,9 +16,9 @@
     "dotenv": "^4.0.0",
     "express": "^4.15.2",
     "clone": "^2.1.1",
-    "redux":"^3.7.2",
-    "react-redux":"^5.0.5",
-    "react-router":"^4.1.1",
-    "react-router-dom":"4.1.1"
+    "redux": "^3.7.2",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "4.1.1"
   }
- }
+}
