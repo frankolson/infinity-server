@@ -21,7 +21,7 @@
     "react-router": "^4.1.1",
     "react-router-dom": "4.1.1"
   },
-  "scripst": {
+  "scripts": {
     "start": "node server.js",
     "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
   }
