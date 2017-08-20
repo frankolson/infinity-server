@@ -14,10 +14,10 @@ const propTypes = {
 class Header extends PureComponent {
   render() {
     return (
-      <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <nav className="navbar navbar-expand-md navbar-dark fixed-top nav-bar-custom">
         <div className="container">
           <Link to="/" className="navbar-brand">
-            <img src={logo} className="App-logo" alt="logo" /> Team Infinity
+            <img src={logo} className="App-logo" alt="logo" />Infinite Solutions
           </Link>
 
           {this.props.history.location.pathname !== "/topic/new" &&
