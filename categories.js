@@ -6,16 +6,28 @@ let db = {}
 const defaultData = {
   categories: [
       {
-        name: 'Business Administration',
-        path: 'Business Administration'
+        name: 'Insights and Data',
+        path: 'Insights and Data'
       },
       {
-        name: 'Research and Development',
-        path: 'Research and Development'
+        name: 'Finance',
+        path: 'Finance'
       },
       {
-        name: 'Culture',
-        path: 'Culture'
+        name: 'Human Resources',
+        path: 'Human Resources'
+      },
+      {
+        name: 'Recruitment',
+        path: 'Recruitment'
+      },
+      {
+        name: 'Safety, Health, and Wellness',
+        path: 'Safety, Health, and Wellness'
+      },
+      {
+        name: 'Technology',
+        path: 'Technology'
       }
   ]
 }

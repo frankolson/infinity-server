@@ -7,8 +7,8 @@ const defaultData = {
     id: '894tuq4ut84ut8v4t8wun89g',
     parentId: "8xf0y6ziyjabvozdd253nd",
     timestamp: 1468166872634,
-    body: 'I might be able to build a rocket...',
-    author: 'Tom Mueller',
+    body: 'We can target schools across the country that have top IT programs.',
+    author: 'Kim Lee',
     voteScore: 6,
     deleted: false,
     parentDeleted: false
@@ -17,8 +17,18 @@ const defaultData = {
     id: '894tuq4ut84u46655htht3un89g',
     parentId: "8xf0y6ziyjabvozdd253nd",
     timestamp: 1468166872634,
-    body: 'I can test it, Tom!',
-    author: 'Tim Buzza',
+    body: 'We can ask current employees to refer candidates that meet these qualifications.',
+    author: 'Kendra Smith',
+    voteScore: 4,
+    deleted: false,
+    parentDeleted: false
+  },
+  "894tuq4ut84u345345hb4j5b3i5jk89g": {
+    id: '894tuq4ut84u345345hb4j5b3i5jk89g',
+    parentId: "8xf0y6ziyjabvozdd253nd",
+    timestamp: 1468166872634,
+    body: 'Utilize LinkedIn to search for qualified candidates that reside around the area.',
+    author: 'Tara Johnson',
     voteScore: 4,
     deleted: false,
     parentDeleted: false
@@ -27,8 +37,28 @@ const defaultData = {
     id: '8tu4bsun805n8un48ve89',
     parentId: "6ni6ok3ym7mf1p33lnez",
     timestamp: 1469479767190,
-    body: 'What about "Don\'t be evil?"',
-    author: 'Sergey Brin',
+    body: 'We can create a macro using VBA within Microsoft Excel to automate our data into a dashboard.',
+    author: 'Louis Lincoln',
+    voteScore: 15,
+    deleted: false,
+    parentDeleted: false
+  },
+  "8tuldslkvasldkv98488ve89": {
+    id: '8tuldslkvasldkv98488ve89',
+    parentId: "6ni6ok3ym7mf1p33lnez",
+    timestamp: 1469479767190,
+    body: 'Using Tableau, we can efficiently create graphs and tables to convey the information the client is interested in seeing. These graphs and tables can be refreshed with a click of a button when we receive new data.',
+    author: 'Jen Park',
+    voteScore: 75,
+    deleted: false,
+    parentDeleted: false
+  },
+  "82307203974odfhsdvsdvsun48ve89": {
+    id: '82307203974odfhsdvsdvsun48ve89',
+    parentId: "6ni6ok3ym7mf1p33lnez",
+    timestamp: 1469479767190,
+    body: 'We can use SAS to explore the data. Then we can create visualizations to display to the client.',
+    author: 'Cameron Patel',
     voteScore: 150,
     deleted: false,
     parentDeleted: false
