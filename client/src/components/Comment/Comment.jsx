@@ -46,14 +46,6 @@ class Comment extends PureComponent {
               <span className="fa fa-caret-up"></span>
             </button>
 
-            <button
-              onClick={() => this.props.downVoteComment(this.props.comment)}
-              style={{cursor: "pointer"}}
-              className="btn btn-link text-secondary"
-            >
-              <span className="fa fa-caret-down"></span>
-            </button>
-
             <span className="text-muted">{`${voteScore} points`}</span>
 
             <div className="float-right">

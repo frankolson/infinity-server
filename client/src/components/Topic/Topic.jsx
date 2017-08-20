@@ -50,6 +50,8 @@ class Topic extends PureComponent {
 
           <p className="topic-body mb-5">{body}</p>
 
+          <div className="mb-2" id="google_translate_element"></div>
+
           <div className="topic-info d-flex justify-content-between mb-3">
             <div>
               <div className="topic-author">{author}</div>
