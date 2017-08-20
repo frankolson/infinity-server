@@ -58,13 +58,13 @@ class CommentForm extends PureComponent {
           <form onSubmit={id ? this.handleUpdate : this.handleSubmit}>
             <TextInput
               onChange={this.props.updateCurentCommentAuthor}
-              placeholder="Tell everyone your name"
+              label="Name"
               value={author}
             />
 
             <TextareaInput
               onChange={this.props.updateCurentCommentBody}
-              placeholder="Write a response..."
+              label="Suggestion"
               value={body}
             />
 

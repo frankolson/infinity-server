@@ -64,13 +64,13 @@ class TopicForm extends PureComponent {
       <form onSubmit={id ? this.handleUpdate : this.handleSubmit}>
         <TextInput
           onChange={this.props.updateCurentTopicTitle}
-          placeholder="Awesome title"
+          label="Title"
           value={title}
         />
 
         <TextInput
           onChange={this.props.updateCurentTopicAuthor}
-          placeholder="Tell everyone your name"
+          label="Name"
           value={author}
         />
 
@@ -83,7 +83,7 @@ class TopicForm extends PureComponent {
 
         <TextareaInput
           onChange={this.props.updateCurentTopicBody}
-          placeholder="What do you have to say?"
+          label="Business Problem"
           value={body}
         />
 
