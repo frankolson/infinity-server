@@ -17,7 +17,7 @@ class Header extends PureComponent {
       <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div className="container">
           <Link to="/" className="navbar-brand">
-            <img src={logo} className="App-logo" alt="logo" /> Team Infinity
+            <img src={logo} className="App-logo" alt="logo" /> Infinite Solution
           </Link>
 
           {this.props.history.location.pathname !== "/topic/new" &&
