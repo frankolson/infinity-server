@@ -8,6 +8,9 @@
     "infintiy",
     "react"
   ],
+  "engines": {
+    "node": "8.1.x"
+  },
   "author": "Will Olson",
   "license": "ISC",
   "dependencies": {
